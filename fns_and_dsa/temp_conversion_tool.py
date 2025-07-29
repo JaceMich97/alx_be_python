@@ -25,5 +25,5 @@ def main():
     else:
         print("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
