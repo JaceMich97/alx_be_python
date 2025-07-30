@@ -1,6 +1,6 @@
 class BankAccount:
-    def _init_(self, initial_balance=0):
-        self.__account_balance = initial_balance
+    def __init__(self, initial_balance=0):
+        self.__account_balance = initial_balance  # Private attribute
 
     def deposit(self, amount):
         if amount > 0:
